@@ -358,3 +358,8 @@ h1 {
     /* display: inline-block */
     position: relative;
 }
+
+.prem > #show {
+    text-decoration: none;
+}
+
