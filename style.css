@@ -1,0 +1,360 @@
+
+
+.nav_bar {
+    display: flex;
+}
+
+.nav_bar_left {
+    display: flex;
+}
+
+#sam {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#sam:hover {
+    font-size: 24px;
+}
+
+.nav_bar_right {
+    position: absolute;
+    right: 105px;
+    top: 1.5px;
+    text-align: right;
+    display: inline-block;
+}
+
+#log-in,
+#join-premium,
+#search,
+#change-language{
+    text-decoration: none;
+    padding: 4px;
+    margin: 55px;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+#star {
+    display: inline-block;
+    position: relative;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.2em 0.6em;
+    width: 20px;
+}
+
+#join-premium {
+    background-color: gold;
+    border-radius: 12px;
+    /* border: solid; */
+
+}
+
+#star-premium {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.2em 0.2em;
+    width: 20px;
+}
+
+#search-icon {
+    display: inline-block;
+    position: relative;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.2em 0.6em;
+    width: 20px;
+}
+
+#choose-language {
+    display: inline-block;
+    position: relative;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.2em 0.6em;
+    width: 20px;
+}
+
+#change-language:hover {
+    color: blue;
+}
+
+#log-in:hover {
+    color: blue;
+}
+
+#join-premium:hover {
+    color: blue;
+}
+
+#search:hover {
+    color: blue;
+}
+
+
+.tabbed-nav_link {
+    text-decoration: none;
+    border: 1px solid #dfe1ed;
+    border-bottom: 0;
+    border-radius: 2px;
+    font-weight: lighter;
+    line-height: 20px;
+    padding: 5px;
+    margin: 2px;
+    color: white;
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#race-timers {
+    background-color: red;
+    border: solid black;
+}
+
+#classroom-timers {
+    background-color: lightgreen;
+    border: solid black;
+}
+
+#holiday-timers {
+    background-color: purple;
+    border: solid black;
+}
+
+#random-name-pickers {
+    background-color: orange;
+    border: solid black;
+}
+
+#random-number-generators {
+    background-color: gray;
+    border: solid black;
+}
+
+#sensory-timers {
+    background-color: maroon;
+    border: solid black;
+}
+
+#clocks {
+    background-color: lightseagreen;
+    border: solid black;
+}
+
+#exam-timers {
+    background-color: blue;
+    border: solid black;
+}
+
+#chance-games {
+    background-color: limegreen;
+    border: solid black;
+}
+
+#group-generators {
+    background-color: lightpink;
+    border: solid black;
+}
+
+#presentation-timers {
+    background-color: orange;
+    border: solid black;
+}
+
+#tally-counters {
+    background-color: lightblue;
+    border: solid black;
+}
+
+i.fas {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+}
+
+#apple {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#holiday {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#question {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#dice {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#time {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 21px;
+}
+
+#clock {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#exam {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#chance {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 15px;
+}
+
+#group {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#presentation {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 15px;
+}
+
+#tally {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+.centered {
+    display: block;
+    clear: both;
+    text-align: center;
+}
+
+.grunge {
+    background-image: url(./images/backgrounds/grunge.png);
+}
+
+.blue {
+    border-color: #15567d;
+    background: #0587cea6;
+}
+
+.box .content h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    color: black;
+}
+
+.box {
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    font-family: lucida grande,lucida sans unicode,lucida sans,dejavu sans,Verdana,sans-serif;
+}
+
+#online-stopwatch {
+    width: 600px;
+    height: 330px;
+    align-items: center;
+    float: flex;
+    right: 10px;
+    left: 320px;
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+}
+
+
+
+#dates {
+    color: white;
+    background-color: brown;
+}
+
+.fullscreen > #full{
+    text-decoration: none;
+}
+
+.fullscreen > #full:hover {
+    color: blue;
+}
+
+.premiumShow {
+    border: solid;
+    border-radius: 244px;
+    background-color: goldenrod;
+    width: 440px;
+    left: 702px;
+    position: relative;
+}
+
+.premiumShow > .prem {
+    width: 200px;
+    height: 130px;
+    left: 145px;
+    position: relative;
+}
+
+.premiumShow, .prem > .pjnf {
+    font-size: 30px;
+    /* display: inline-block */
+    position: relative;
+}
