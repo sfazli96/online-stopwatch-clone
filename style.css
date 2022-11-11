@@ -112,6 +112,10 @@
     margin-left: auto;
 }
 
+.tabbed-nav_link:hover {
+    color: blue;
+}
+
 
 #race-timers {
     background-color: red;
@@ -140,6 +144,11 @@
 
 #sensory-timers {
     background-color: maroon;
+    border: solid black;
+}
+
+#dates {
+    background-color: brown;
     border: solid black;
 }
 
@@ -217,7 +226,7 @@ i.fas {
     border-radius: 60px;
     box-shadow: 0 0 2px #888;
     padding: 0.5em 0.6em;
-    width: 21px;
+    width: 19px;
 }
 
 #clock {
@@ -341,7 +350,8 @@ h1 {
     border: solid;
     border-radius: 244px;
     background-color: goldenrod;
-    width: 440px;
+    margin: 16px;
+    width: 410px;
     left: 702px;
     position: relative;
 }
@@ -361,5 +371,120 @@ h1 {
 
 .prem > #show {
     text-decoration: none;
+    color: black;
 }
 
+.prem > #show:hover {
+    color: blue;
+}
+
+#background-footer {
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+}
+
+#onl-stopwatch,
+#calculator,
+#help-support,
+#contact-us,
+#terms,
+#privacy-policy {
+    text-decoration: none;
+    padding: 0px;
+    margin: 15px;
+    margin-bottom: 8px;
+    display: inline-block;
+    position: relative;
+    left: 525.5px;
+    color: white;
+}
+
+.menu-links >  ul li #count-timer,
+#large-stopwatch,
+#split-lap,
+#egg-timer,
+#bomb-countdown,
+#clock-countdown,
+#chess-clock,
+#chess-timer,
+#online-clock,
+#online-alarm-clock,
+#online-digital-clock,
+#cash-clock,
+#interval-timer,
+#metronome,
+#top-app,
+#make-own-timer,
+#custom-countdown-timer,
+#talking-clock,
+#video-timers,
+#download,
+#Timer {
+    background-color: #15567d;
+    margin-right: 35px;
+    padding: 5px;
+    width: 180px;
+}
+
+.menu-links li {
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    width: 150px;
+    height: 30px;
+    border: 0 #000;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* .timer_bar > #table {
+    display: inline;
+    width: 150px;
+    height: 30px;
+    border: 0 #000;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+} */
+
+#home {
+    display: inline;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.02em 0.04em;
+    width: 18px;
+}
+
+#race-timer {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#apple {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#holi {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
+
+#date-countdown {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    width: 16px;
+}
