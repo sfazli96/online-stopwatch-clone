@@ -142,3 +142,9 @@ copy / paste HTML code instead of using the URL of a deployed site.
 [Accessibility Checker]: https://www.accessibilitychecker.org/
 [AChecker]: https://achecker.achecks.ca/checker/index.php
 [WAVE]: https://wave.webaim.org/# pixel-perfect-clone
+
+
+## Some Resources used for Stopwatch timer in Javascript ##
+- https://www.foolishdeveloper.com/2021/10/simple-stopwatch-using-javascript.html 
+- https://www.youtube.com/watch?v=gD0BHxCgxYY
+- https://codepen.io/cathydutton/pen/xxpOOw
