@@ -318,19 +318,104 @@ h2 {
 }
 
 #online-stopwatch {
+        /* border: 3px solid red; */
     width: 600px;
     height: 330px;
     align-items: center;
     float: flex;
     right: 10px;
-    left: 320px;
+    left: 12px;
     position: relative;
+    text-decoration: none;
+    color: white;
 }
+
+#online {
+    color: white;
+    background-color: darkblue;
+    display: block;
+}
+
+#online:hover {
+    /* border: 3px solid red;*/  /* Weird bug, fix later */
+    color: lightblue;
+}
+
 
 h1 {
     display: inline-block;
 }
 
+.stop-watch {
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: relative;
+    left: 602px;
+    width: 40%;
+    min-width: 500px;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.timerDisplay{
+    position: relative;
+    width: 89%;
+    background: lightblue;
+    left: 5.2%;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 45px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    border: 2px solid black;
+}
+
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 19px;
+    position: relative;
+    right: 20px;
+}
+
+.buttons button:nth-last-child(2){
+    background-color: #d23332;
+    border-radius: 20%;
+  }
+
+  /* .buttons button:nth-last-child(1){
+    background-color: #20b380;
+    border-radius: 20%;
+  } */
+
+#pauseTimer {
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100px;
+    background-color: pink;
+}
+
+#startTimer {
+    height: 50px;
+    width: 100px;
+    background-color: lightgreen;
+}
+
+#resetTimer {
+    height: 50px;
+    width: 100px;
+}
 
 
 #dates {
